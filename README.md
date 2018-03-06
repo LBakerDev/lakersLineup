@@ -2,7 +2,12 @@
 
 Application that allows the user to choose starters and reserves for current Lakers Roster
 The user has a total of 5 moves that he can make before players are locked into their
-role 
+role. 
+
+Do the following to initiate the app:
+-Clone the repository
+-Run "npm install" to install dependencies
+-Run "ng serve" to deploy
 
 ## Development server
 
