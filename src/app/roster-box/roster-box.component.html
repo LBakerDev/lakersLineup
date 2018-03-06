@@ -1,0 +1,46 @@
+<div class=container>
+<div class="starters ">
+  <div class=" col color-dark">
+    <p>Starters</p>
+  </div>
+
+  <div class="player-block" *ngFor="let player of players; let i = index;">
+    <div class="player-card">
+      <img src="{{ player.photo }}" alt="">
+      <p>{{ player.name }} {{ player.position }}</p>
+      <p>Moves Remaining: {{player.moves}}</p>
+    </div>
+    <div>
+      <form class="" action="">
+        <input *ngIf="player.moves > 0" (click)="onStarterSubmit(i)" class=" btn btn-sm waves-light" type="submit" value="{{ btnTextStarter }}">
+      </form>
+
+
+    </div>
+
+  </div>
+</div>
+
+<div class="starters">
+  <div class=" col color-dark">
+    <p>Reserves</p>
+  </div>
+
+  <div class="player-block" *ngFor="let player of reserves; let i = index;">
+    <div class="player-card">
+      <img src="{{ player.photo }}" alt="">
+      <p>{{ player.name }} {{ player.position }}</p>
+      <p>Moves Remaining: {{player.moves}}</p>
+    </div>
+    <div>
+      <form class="" action="">
+        <input *ngIf="player.moves > 0" (click)="onReserveSubmit(i)" class=" btn btn-sm waves-light" type="submit" value="{{ btnTextReserve }}">
+      </form>
+
+
+    </div>
+
+  </div>
+</div>
+
+<div>

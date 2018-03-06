@@ -1,0 +1,52 @@
+[
+    {
+        "index": 1,
+        "photo": "../../assets/images/Josh.jpeg",
+        "name": "Josh Hart",
+        "position": "G",
+        "moves": 5
+      },
+
+      {
+        "index": 2,
+        "photo": "../../assets/images/Alex.jpeg",
+        "name": "Alex Caruso",
+        "position": "G",
+        "moves": 5
+      },
+      {
+        "index": 3,
+        "photo": "../../assets/images/GP2.jpeg",
+        "name": "Gary Payton II",
+        "position": "G",
+        "moves": 5
+      },
+      {
+        "index": 4,
+        "photo": "../../assets/images/Brandon.jpeg",
+        "name": "Brandon Ingram",
+        "position": "F",
+        "moves": 5
+      },
+      {
+        "index": 5,
+        "photo": "../../assets/images/Kyle.jpeg",
+        "name": "Kyle Kuzma",
+        "position": "F",
+        "moves": 5
+      },
+      {
+        "index": 6,
+        "photo": "../../assets/images/Channing.jpeg",
+        "name": "Channing Frye",
+        "position": "F",
+        "moves": 5
+      },
+      {
+        "index": 7,
+        "photo": "../../assets/images/tyler.jpeg",
+        "name": "Tyler Ennis",
+        "position": "G",
+        "moves": 5
+      }
+]

@@ -1,0 +1,59 @@
+
+p{
+    padding: 1em;
+    /* margin-right: 10em  */
+}
+
+.starters {
+    margin-top: 3em;
+    width: 33%;
+
+}
+
+
+.btn {
+    color: black !important;
+    background-color: #FFC107 !important
+}
+
+
+.container {
+   display: flex;
+   flex: wrap;
+   justify-content: space-between
+}
+
+
+
+.color-dark {
+    background: #512DA8;
+    color: white;
+    text-align: center;
+    border-radius: 3px
+}
+
+.player-block {
+    box-shadow: 0 10px 6px -6px #777;
+    margin-bottom: 1em;
+    width: 100%
+
+}
+
+.player-card {
+    width: 100%;
+    margin-left: 25%
+    
+}
+
+.player-card p {
+    padding: 0;
+}
+
+form {
+    width:50%;
+    margin-left: 25%
+}
+
+
+
+
