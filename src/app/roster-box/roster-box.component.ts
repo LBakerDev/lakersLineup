@@ -23,14 +23,16 @@ export class RosterBoxComponent implements OnInit {
   onStarterSubmit(i): void {
     let playerToMove = this.players[i];
     this.players[i].moves--;
-    this.players.splice(i, 1);
     this.reserves.push(playerToMove);
+    this.players.splice(i, 1);
+
   }
 
   onReserveSubmit(i): void {
     let playerToMove = this.reserves[i];
     this.reserves[i].moves--;
-    this.reserves.splice(i, 1);
     this.players.push(playerToMove);
+    this.reserves.splice(i, 1);
+
   }
 }
