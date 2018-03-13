@@ -8,20 +8,7 @@ export const RESERVES: bench[] = [
         position: "G",
         moves: 5
       },
-    //   {
-    //     index: 5,
-    //     photo: "../../assets/images/Kyle.jpeg",
-    //     name: "Kyle Kuzma",
-    //     position: "F",
-    //     moves: 5
-    //   },
-    //   {
-    //     index: 5,
-    //     photo: "../../assets/images/Channing.jpeg",
-    //     name: "Channing Frye",
-    //     position: "F",
-    //     moves: 5
-    //   },
+
       {
         index: 5,
         photo: "../../assets/images/Alex.jpeg",

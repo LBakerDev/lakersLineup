@@ -31,8 +31,8 @@ p {
   box-shadow: 0 10px 6px -6px #777;
   margin-bottom: 2em;
   width: 100%;
-  /* border: 1px solid #BDBDBD; */
   border-radius: 3px;
+  background-color: white
 }
 
 .player-card {
