@@ -3,7 +3,7 @@ import { bench } from './bench'
  const RESERVES: bench[] = [
     {
         index: 5,
-        photo: "../../assets/images/Josh.jpeg",
+        photo: "assets/images/Josh.jpeg",
         name: "KCP",
         position: "G",
         moves: 5
@@ -11,35 +11,35 @@ import { bench } from './bench'
 
       {
         index: 5,
-        photo: "../../assets/images/Alex.jpeg",
+        photo: "assets/images/Alex.jpeg",
         name: "Alex Caruso",
         position: "G",
         moves: 5
       },
       {
         index: 5,
-        photo: "../../assets/images/GP2.jpeg",
+        photo: "assets/images/GP2.jpeg",
         name: "Gary Payton II",
         position: "G",
         moves: 5
       },
       {
         index: 5,
-        photo: "../../assets/images/Josh.jpeg",
+        photo: "assets/images/Josh.jpeg",
         name: "KCP",
         position: "G",
         moves: 5
       },
       {
         index: 5,
-        photo: "../../assets/images/Kyle.jpeg",
+        photo: "assets/images/Kyle.jpeg",
         name: "Kyle Kuzma",
         position: "F",
         moves: 5
       },
       {
         index: 5,
-        photo: "../../assets/images/Channing.jpeg",
+        photo: "assets/images/Channing.jpeg",
         name: "Channing Frye",
         position: "F",
         moves: 5
