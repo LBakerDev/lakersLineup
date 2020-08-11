@@ -1,6 +1,6 @@
 import { player } from "./player";
 
-export const PLAYERS: player[] = [
+ const PLAYERS: player[] = [
   {
     index: 1,
     photo: "../../assets/images/lonzo.jpeg",
@@ -38,3 +38,5 @@ export const PLAYERS: player[] = [
   },
  
 ];
+
+export default PLAYERS;

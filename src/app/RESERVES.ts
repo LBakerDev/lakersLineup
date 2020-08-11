@@ -1,6 +1,6 @@
 import { bench } from './bench'
 
-export const RESERVES: bench[] = [
+ const RESERVES: bench[] = [
     {
         index: 5,
         photo: "../../assets/images/Josh.jpeg",
@@ -45,3 +45,5 @@ export const RESERVES: bench[] = [
         moves: 5
       }
 ]
+
+export default RESERVES;

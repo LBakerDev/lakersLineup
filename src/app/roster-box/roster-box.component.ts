@@ -1,5 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { DataService } from "../data.service";
+import PLAYERS from '../PLAYERS';
+import RESERVES from '../RESERVES'
 
 @Component({
   selector: "app-roster-box",
@@ -10,14 +12,14 @@ import { DataService } from "../data.service";
 export class RosterBoxComponent implements OnInit {
   btnTextStarter: string = "Move to Bench";
   btnTextReserve: string = "Make Starter";
-  players: Array<any>;
-  reserves: Array<any>;
+  players = PLAYERS;
+  reserves = RESERVES;
 
   constructor(public dataService: DataService) {}
   ngOnInit() {
     //Http request to retrieve data
-    this.dataService.getAllStarters().subscribe(data => (this.players = data));
-    this.dataService.getAllReserves().subscribe(data => (this.reserves = data));
+    // this.dataService.getAllStarters().subscribe(data => (this.players = data));
+    // this.dataService.getAllReserves().subscribe(data => (this.reserves = data));
   }
 
   onStarterSubmit(i): void {
